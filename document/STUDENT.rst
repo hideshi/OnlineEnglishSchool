@@ -13,8 +13,10 @@ STUDENT: 生徒
    SEX, 性別, CHAR, 1, , ○, 1:男性 2:女性
    BIRTH_DATE, 誕生日, DATE, , , ○
    REGISTERED_DATE, 登録日, DATE, , , ○
+   DUE_DATE, 支払日, INTEGER
    EMAIL_ADDRESS, メールアドレス, VARCHAR, 200, , ○
    SKYPE_ID, SkypeID, VARCHAR, 200, , ○
+   STATUS, ステータス, CHAR, 1, , ○, 1:体験入会 2:休会中 3:退会 4:プランＡ 5:プランＢ 6:プランＣ
    INFORMATION, 情報, VARCHAR, 4000
    REG_USER_ID, 登録ユーザID, INTEGER
    REG_TIMESTAMP, 登録タイムスタンプ, TIMESTAMP

@@ -1,5 +1,5 @@
-TEACHER_CHARACTERISTIC: 講師特性
-================================
+TEACHER_SCHEDULE: 講師スケジュール
+=====================================
 
 .. csv-table::
    :header: 物理名, 論理名, データ型, 桁数, PK, NOT NULL, 備考
@@ -7,7 +7,10 @@ TEACHER_CHARACTERISTIC: 講師特性
 
    ID, ID, INTEGER, , ○, ○
    TEACHER_ID, 講師ID, INTEGER, , , ○
-   CHARACTERISTIC, 特性, INTEGER, , , ○, 1:TOEIC対策 2:初心者向け 3:子供向け 4:ビジネス英語 5:フリートーク 6:日本語OK
+   DATE, 日付, DATE, , , ○
+   START_TIME, 開始時刻, TIME, , , ○
+   STATUS, ステータス, CHAR, 1, , ○, 1:予約なし 2:受講前 3:受講中 4:受講後 5:欠席 6:休講
+   RESERVATION_ID, 予約ID, INTEGER
    REG_USER_ID, 登録ユーザID, INTEGER
    REG_TIMESTAMP, 登録タイムスタンプ, TIMESTAMP
    UPD_USER_ID, 更新ユーザID, INTEGER

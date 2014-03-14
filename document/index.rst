@@ -11,9 +11,10 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   basic_definition
-   view_definition
-   table_definition
+   definition_basic
+   definition_view
+   definition_batch
+   definition_table
    todo
 
 
