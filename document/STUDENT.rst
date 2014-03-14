@@ -15,3 +15,8 @@ STUDENT: 生徒
    REGISTERED_DATE, 登録日, DATE, , , ○
    EMAIL_ADDRESS, メールアドレス, VARCHAR, 200, , ○
    SKYPE_ID, SkypeID, VARCHAR, 200, , ○
+   REG_USER_ID, 登録ユーザID, INTEGER
+   REG_TIMESTAMP, 登録タイムスタンプ, TIMESTAMP
+   UPD_USER_ID, 更新ユーザID, INTEGER
+   UPD_TIMESTAMP, 更新タイムスタンプ, TIMESTAMP
+   DELETE_FLG, 削除フラグ, CHAR, 1

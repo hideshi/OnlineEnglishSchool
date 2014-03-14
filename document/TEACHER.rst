@@ -11,16 +11,17 @@ TEACHER: 講師
    MIDDLE_NAME, ミドルネーム, VARCHAR, 40
    LAST_NAME, 姓, VARCHAR, 40, , ○
    PASSWORD, パスワード, VARCHAR, 200, , ○
+   AUTHORITY, 権限, CHAR, 1, , ○, 1:管理者 2:一般講師
    SEX, 性別, CHAR, 1, , ○, 1:男性 2:女性
    BIRTH_DATE, 誕生日, DATE, , , ○
    HIRED_DATE, 雇入日, DATE, , , ○
-   SKYPE_ID, SkypeID, VARCHAR, 200, , ○
+   SKYPE_ID, SkypeID, VARCHAR, 200
    HOBBY, 趣味, VARCHAR, 100
    UNIVERSITY, 大学, VARCHAR, 100
    COMMENT, コメント, VARCHAR, 400
    URL, URL, VARCHAR, 400
-   TOEIC, TOEIC, BOOLEAN, 1
-   KIDS, キッズ, BOOLEAN, 1
-   FREE_TALK, フリートーク, BOOLEAN, 1
-   JAPANESE_OK, 日本語OK, BOOLEAN, 1
-   BUSINESS_ENGLISH, ビジネス英語, BOOLEAN, 1
+   REG_USER_ID, 登録ユーザID, INTEGER
+   REG_TIMESTAMP, 登録タイムスタンプ, TIMESTAMP
+   UPD_USER_ID, 更新ユーザID, INTEGER
+   UPD_TIMESTAMP, 更新タイムスタンプ, TIMESTAMP
+   DELETE_FLG, 削除フラグ, CHAR, 1
