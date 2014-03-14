@@ -1,4 +1,4 @@
-TEACHER: 講師
+STUDENT: 生徒
 =============
 
 .. csv-table::
@@ -11,9 +11,7 @@ TEACHER: 講師
    FIRST_NAME, 名, VARCHAR, 40
    SEX, 性別, CHAR, 1, 1:男性 2:女性
    BIRTH_DATE, 誕生日, DATE
-   HOBBY, 趣味, VARCHAR, 100
-   UNIVERSITY, 大学, VARCHAR, 100
-   HIRED_DATE, 雇入日, DATE
-   COMMENT, コメント, VARCHAR, 400
-   URL, URL, VARCHAR, 400
+   REGISTERED_DATE, 登録日, DATE
+   EMAIL_ADDRESS, メールアドレス, VARCHAR, 200
+   SKYPE_ID, SkypeID, VARCHAR, 200
    PASSWORD, パスワード, VARCHAR, 200
