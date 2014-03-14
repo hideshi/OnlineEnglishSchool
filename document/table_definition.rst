@@ -4,4 +4,7 @@
 .. toctree::
    :maxdepth: 2
 
+   STUDENT
    TEACHER
+   SCHEDULE
+   RESERVATION

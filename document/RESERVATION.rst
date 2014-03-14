@@ -1,0 +1,12 @@
+RESERVATION: レッスン予約
+=========================
+
+.. csv-table::
+   :header: 物理名, 論理名, データ型, 桁数, 備考
+   :widths: 20, 20, 10, 10, 40
+
+   ID, ID, INTEGER
+   STUDENT_ID, 生徒ID, INTEGER
+   STATUS, ステータス, CHAR, 1, 1:受講前 2:受講中 3:受講後
+   TEACHER_EVALUATION_COMMENT, 講師評価コメント, VARCHAR, 1000
+   CALL_QUALITY_EVALUATION, 通話品質評価, CHAR, 1
