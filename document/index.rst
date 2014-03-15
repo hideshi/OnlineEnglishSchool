@@ -16,8 +16,8 @@ Contents:
    definition_view
    definition_batch
    definition_table
-   definition_common_function
    definition_sql
+   definition_common_function
 
 
 Indices and tables

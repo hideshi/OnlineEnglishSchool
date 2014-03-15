@@ -4,6 +4,6 @@
 .. toctree::
    :maxdepth: 2
 
-   F02J01
-   F02J02
-   F02J03
+   02.batch/F02J01
+   02.batch/F02J02
+   02.batch/F02J03

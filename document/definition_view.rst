@@ -4,12 +4,12 @@
 .. toctree::
    :maxdepth: 2
 
-   F01V01
-   F01V02
-   F01V03
-   F02V01
-   F02V02
-   F02V03
-   F02V04
-   F02V05
-   F02V06
+   01.view/F01V01
+   01.view/F01V02
+   01.view/F01V03
+   01.view/F02V01
+   01.view/F02V02
+   01.view/F02V03
+   01.view/F02V04
+   01.view/F02V05
+   01.view/F02V06
