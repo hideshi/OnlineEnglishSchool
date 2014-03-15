@@ -13,3 +13,16 @@
 
   * /path/to/root
 
+* HTMLテンプレート
+* JavaScript
+* CSS
+* 画像
+* Pythonスクリプト（WEB）
+* Pythonスクリプト（バッチ）
+* Pythonスクリプト（設定）
+* データベース
+* ログファイル
+
+**バッチ起動**
+
+* cron

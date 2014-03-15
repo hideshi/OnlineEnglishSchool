@@ -2,32 +2,32 @@ TEACHER: 講師
 =============
 
 .. csv-table::
-   :header: 物理名, 論理名, データ型, 桁数, PK, NOT NULL, 備考
+   :header: 論理名, 物理名, データ型, 桁数, PK, NOT NULL, 備考
    :widths: 20, 20, 10, 10, 4, 4, 40
 
-   ID, ID, INTEGER, , ○, ○
-   NICK_NAME, ニックネーム, VARCHAR, 40, , ○
-   FIRST_NAME, 名, VARCHAR, 40, , ○
-   MIDDLE_NAME, ミドルネーム, VARCHAR, 40
-   LAST_NAME, 姓, VARCHAR, 40, , ○
-   PASSWORD, パスワード, VARCHAR, 200, , ○
-   SEX, 性別, CHAR, 1, , ○, 1:男性 2:女性
-   BIRTH_DATE, 誕生日, DATE, , , ○
-   HIRED_DATE, 雇入日, DATE, , , ○
-   ADDRESS, 住所, VARCHAR, 400
-   TEL, 電話番号, VARCHAR, 20
-   EMAIL, メールアドレス, VARCHAR, 200
-   BANK_ACCOUNT, 銀行口座, VARCHAR, 200
-   TIME_WAGE, 時間単位給, INTEGER
-   SKYPE_ID, SkypeID, VARCHAR, 200
-   HOBBY, 趣味, VARCHAR, 100
-   UNIVERSITY, 大学, VARCHAR, 100
-   OFFICE_ID, オフィスID, INTEGER
-   COMMENT, コメント, VARCHAR, 400
-   AUTHORITY, 権限, CHAR, 1, , ○, 1:管理者 2:一般講師
-   URL, URL, VARCHAR, 400
-   REG_USER_ID, 登録ユーザID, INTEGER
-   REG_TIMESTAMP, 登録タイムスタンプ, TIMESTAMP
-   UPD_USER_ID, 更新ユーザID, INTEGER
-   UPD_TIMESTAMP, 更新タイムスタンプ, TIMESTAMP
-   DELETE_FLG, 削除フラグ, CHAR, 1
+   ID,ID,INTEGER,,○,○
+   ニックネーム,NICK_NAME,VARCHAR,40,,○
+   名,FIRST_NAME,VARCHAR,40,,○
+   ミドルネーム,MIDDLE_NAME,VARCHAR,40
+   姓,LAST_NAME,VARCHAR,40,,○
+   パスワード,PASSWORD,VARCHAR,200,,○
+   性別,SEX,CHAR,1,,○,1:男性 2:女性
+   誕生日,BIRTH_DATE,DATE,,,○
+   雇入日,HIRED_DATE,DATE,,,○
+   住所,ADDRESS,VARCHAR,400
+   電話番号,TEL,VARCHAR,20
+   メールアドレス,EMAIL,VARCHAR,200
+   銀行口座,BANK_ACCOUNT,VARCHAR,200
+   時間単位給,TIME_WAGE,INTEGER
+   SkypeID,SKYPE_ID,VARCHAR,200
+   趣味,HOBBY,VARCHAR,100
+   大学,UNIVERSITY,VARCHAR,100
+   オフィスID,OFFICE_ID,INTEGER
+   コメント,COMMENT,VARCHAR,400
+   権限,AUTHORITY,CHAR,1,,○,1:管理者 2:一般講師
+   URL,URL,VARCHAR,400
+   登録ユーザID,REG_USER_ID,INTEGER
+   登録タイムスタンプ,REG_TIMESTAMP,TIMESTAMP
+   更新ユーザID,UPD_USER_ID,INTEGER
+   更新タイムスタンプ,UPD_TIMESTAMP,TIMESTAMP
+   削除フラグ,DELETE_FLG,CHAR,1

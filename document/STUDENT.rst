@@ -2,24 +2,24 @@ STUDENT: 生徒
 =============
 
 .. csv-table::
-   :header: 物理名, 論理名, データ型, 桁数, PK, NOT NULL, 備考
+   :header: 論理名, 物理名, データ型, 桁数, PK, NOT NULL, 備考
    :widths: 20, 20, 10, 10, 4, 4, 40
 
-   ID, ID, INTEGER, , ○, ○
-   NICK_NAME, ニックネーム, VARCHAR, 40, , ○
-   LAST_NAME, 姓, VARCHAR, 40, , ○
-   FIRST_NAME, 名, VARCHAR, 40, , ○
-   PASSWORD, パスワード, VARCHAR, 200, , ○
-   SEX, 性別, CHAR, 1, , ○, 1:男性 2:女性
-   BIRTH_DATE, 誕生日, DATE, , , ○
-   REGISTERED_DATE, 登録日, DATE, , , ○
-   CUTOFF_DATE, 締め日, INTEGER
-   EMAIL_ADDRESS, メールアドレス, VARCHAR, 200, , ○
-   SKYPE_ID, SkypeID, VARCHAR, 200, , ○
-   STATUS, ステータス, CHAR, 1, , ○, 1:体験入会 2:休会中 3:退会 4:プランＡ 5:プランＢ 6:プランＣ
-   INFORMATION, 情報, VARCHAR, 4000
-   REG_USER_ID, 登録ユーザID, INTEGER
-   REG_TIMESTAMP, 登録タイムスタンプ, TIMESTAMP
-   UPD_USER_ID, 更新ユーザID, INTEGER
-   UPD_TIMESTAMP, 更新タイムスタンプ, TIMESTAMP
-   DELETE_FLG, 削除フラグ, CHAR, 1
+   ID,ID,INTEGER,,○,○
+   ニックネーム,NICK_NAME,VARCHAR,40,,○
+   姓,LAST_NAME,VARCHAR,40,,○
+   名,FIRST_NAME,VARCHAR,40,,○
+   パスワード,PASSWORD,VARCHAR,200,,○
+   性別,SEX,CHAR,1,,○,1:男性 2:女性
+   誕生日,BIRTH_DATE,DATE,,,○
+   登録日,REGISTERED_DATE,DATE,,,○
+   締め日,CUTOFF_DATE,INTEGER
+   メールアドレス,EMAIL_ADDRESS,VARCHAR,200,,○
+   SkypeID,SKYPE_ID,VARCHAR,200,,○
+   ステータス,STATUS,CHAR,1,,○,1:体験入会 2:休会中 3:退会 4:プランＡ 5:プランＢ 6:プランＣ
+   情報,INFORMATION,VARCHAR,4000
+   登録ユーザID,REG_USER_ID,INTEGER
+   登録タイムスタンプ,REG_TIMESTAMP,TIMESTAMP
+   更新ユーザID,UPD_USER_ID,INTEGER
+   更新タイムスタンプ,UPD_TIMESTAMP,TIMESTAMP
+   削除フラグ,DELETE_FLG,CHAR,1
